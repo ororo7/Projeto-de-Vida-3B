@@ -3,9 +3,9 @@
 :root{
     --cor-de-fundo:#040952;
     --botao-inativo: rgb(47, 0, 255);
-    --botao-ativo :#3aa29d;
+    --botao-ativo :#0066ff;
     --branco:#ffffff;
-    --cor-letra: #ca1561;
+    --cor-letra: #0066ff;
     --sublinhado:#f62cca;
 }
 body{
