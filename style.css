@@ -9,7 +9,7 @@
     --sublinhado:rgb(47, 0,255);
 }
 body{
-    background-color: black;
+    background-color: #01096e;
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif; 
 }
