@@ -45,8 +45,16 @@ if (tempoFinal>0){
         return "PRAZO FINALIZADO";
     }
     }
-     
+    
 
-     function atualizaCronometro(){
-        for (let i=0; i < contadores.length; i++)
+    function atualizaCronometro(){
+        for (let i=0; i < contadores.length; i++){
+            contadores[i].textContent = calculaTempo(tempos[i]);  
         }
+    }
+    function comecaCronometro(){
+        atualizaCronometro();
+        setInterval(atualizaCronometro,1000);
+    }
+    comecaCronometro();
+    
